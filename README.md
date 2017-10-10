@@ -1,5 +1,5 @@
 # CheckGmail
-Check ture e-mail by gmail.
+Check true e-mail by gmail.
 <br>
 Generate People and verify email. 
 
