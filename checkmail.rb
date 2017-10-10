@@ -14,7 +14,7 @@ dork = ARGV[0]
 limit = ARGV[1]
 if limit.nil? || dork != "--limit" 
 	puts "Null\n".red
-	puts "Usage: --limit 10".red
+	puts "Usar: --limit 10".red
 else
  url_generetor =  open("https://randomuser.me/api/?nat=us&results=#{limit}").read	
  json_parse =JSON.parse(url_generetor)
